@@ -17,7 +17,12 @@
     <v-app-bar-title class="d-flex align-center">
       <div class="d-flex align-center">
         <a href="./">
-          <img src="@images/solar-energy-logo.png" alt="solar energy logo" class="logo-img" />
+          <img
+            src="@images/solar-energy-logo.webp"
+            alt="solar energy logo"
+            class="logo-img"
+            loading="lazy"
+          />
         </a>
       </div>
     </v-app-bar-title>

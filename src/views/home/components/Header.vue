@@ -5,6 +5,7 @@
         src="@images/home/use-energy-from-the-sun.webp"
         alt="Use Energy from The Sun and Save Money"
         class="hero-image"
+        loading="lazy"
       />
       <v-row class="px-md-10" style="z-index: 2">
         <v-col

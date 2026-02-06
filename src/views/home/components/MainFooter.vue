@@ -5,9 +5,10 @@
         <v-col cols="12" md="4">
           <div class="d-flex align-center mb-6">
             <img
-              src="@images/solar-energy-logo.png"
+              src="@images/solar-energy-logo.webp"
               alt="solar energy logo"
               style="max-height: 120px; max-width: 120px"
+              loading="lazy"
             />
           </div>
           <p class="text-body-2 mb-8 opacity-90">
@@ -29,7 +30,7 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <h3 class="text-h6 font-weight-bold mb-6">{{ $t("footer.articlesTitle") }}</h3>
+          <h3 class="text-h6 font-weight-bold mb-6">{{ $t("footer.popularArticles") }}</h3>
           <ul class="list-unstyled">
             <li v-for="(articleKey, i) in articleKeys" :key="i" class="mb-4 d-flex align-start">
               <v-icon :icon="icons.mdiCircle" size="8" class="mt-2 mr-3"></v-icon>
@@ -41,12 +42,12 @@
         </v-col>
 
         <v-col cols="12" md="4">
-          <h3 class="text-h6 font-weight-bold mb-6">{{ $t("footer.newsletterTitle") }}</h3>
+          <h3 class="text-h6 font-weight-bold mb-6">{{ $t("footer.newsletter") }}</h3>
           <p class="text-body-2 mb-6">
             {{ $t("footer.newsletterDesc") }}
           </p>
           <v-text-field
-            :placeholder="$t('footer.emailPlaceholder')"
+            :placeholder="$t('footer.enterEmail')"
             variant="solo"
             flat
             rounded="pill"
@@ -59,7 +60,7 @@
             class="font-weight-bold text-uppercase"
             style="background-color: #0000005c; color: #ffffff"
           >
-            {{ $t("footer.subscribeBtn") }}
+            {{ $t("footer.subscribeNow") }}
           </v-btn>
         </v-col>
       </v-row>

@@ -45,7 +45,7 @@
           <swiper-slide v-for="(project, i) in projects" :key="i" v-slot="{ isActive }">
             <v-card class="project-card" elevation="0">
               <div class="image-container">
-                <img :src="project.image" :alt="project.title" class="project-img" />
+                <img :src="project.image" :alt="project.title" class="project-img" loading="lazy" />
 
                 <div
                   v-if="project.badge"
