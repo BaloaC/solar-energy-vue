@@ -44,13 +44,4 @@ Este módulo es el núcleo funcional del proyecto. He integrado y modernizado la
 
 ---
 
-## ⚙️ Instalación
-
-1. Clonar el repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/solar-energy-vue.git](https://github.com/tu-usuario/solar-energy-vue.git)
-  
-
-**Desarrollado por Francis Baloa**
-
 Portafolio [https://baloac.github.io/]

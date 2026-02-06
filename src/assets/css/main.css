@@ -1,0 +1,146 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --solar-green: #03b02d;
+}
+
+.title-bar {
+  width: 100%;
+  padding-left: 54px;
+  position: relative;
+  font-weight: 900 !important;
+  color: rgb(var(--v-theme-primary));
+  text-transform: uppercase;
+}
+
+.title-bar::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 48px;
+  height: 3px;
+  background-color: #28a745;
+}
+
+.text-dark-blue {
+  color: #1a1a2e;
+  line-height: 1.1 !important;
+}
+
+@media (max-width: 960px) {
+  .title-bar {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .title-bar::after {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+/* Animation */
+.img-zoom-container {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+}
+
+.zoom-image {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.service-card:hover .zoom-image {
+  transform: scale(1.1);
+}
+
+.reveal-mask {
+  overflow: hidden;
+  display: block;
+}
+.reveal-mask .reveal-content {
+  display: block;
+  transform: translateY(110%);
+  transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fade-element {
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.animate-active .fade-element,
+.animate-active.fade-element {
+  opacity: 1 !important;
+}
+
+.fade-up-element {
+  opacity: 0;
+  transform: translateY(40px);
+  transition:
+    opacity 1s ease,
+    transform 1s ease;
+}
+
+.animate-active .fade-up-element,
+.animate-active.fade-up-element,
+.animate-active .reveal-content {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+}
+
+.fade-left-element {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition:
+    opacity 1.2s ease,
+    transform 1.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.animate-active .fade-left-element {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-right-element {
+  opacity: 0 !important;
+  transform: translateX(-50px) !important;
+  transition:
+    opacity 1.2s ease,
+    transform 1.2s cubic-bezier(0.17, 0.67, 0.83, 0.67) !important;
+  display: inline-block;
+}
+
+.animate-active .fade-right-element {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}
+
+.animate-active .reveal-content,
+.animate-active.fade-up-element,
+.animate-active .fade-up-element {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+}
+
+.delay-1 {
+  transition-delay: 0.15s !important;
+}
+.delay-2 {
+  transition-delay: 0.3s !important;
+}
+.delay-3 {
+  transition-delay: 0.45s !important;
+}
