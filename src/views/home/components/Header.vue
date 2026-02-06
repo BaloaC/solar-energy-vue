@@ -56,7 +56,7 @@
             :src="heroMan"
             alt="Technical Expert"
             width="1200"
-            class="hero-person-image d-flex d-md-none d-lg-flex fade-up-element"
+            class="hero-person-image d-flex d-md-none d-lg-flex"
             contain
           ></v-img>
         </v-col>
