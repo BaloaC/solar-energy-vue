@@ -16,7 +16,10 @@
   "dependencies": {
     "ol": "^10.7.0",
     "pinia": "^3.0.4",
+    "swiper": "^12.1.0",
     "vue": "^3.5.26",
+    "vue-i18n": "^11.2.8",
+    "vue-router": "^5.0.2",
     "vuetify": "^3.11.6"
   },
   "devDependencies": {
