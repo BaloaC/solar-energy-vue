@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import { defineAsyncComponent } from "vue";
 import Navbar from "./components/Navbar.vue";
 import Header from "./components/Header.vue";
 import LogoRow from "./components/LogoRow.vue";
