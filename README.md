@@ -44,9 +44,17 @@ Este módulo es el núcleo funcional del proyecto. He integrado y modernizado la
 
 ---
 
-## Proyecto y Github
+## 🎨 Créditos y Reconocimientos
 
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://solar-energy-vue.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BaloaC/solar-energy-vue)
+Este proyecto fue desarrollado con fines demostrativos de dominio técnico. 
+
+- **Diseño Original:** Inspirado en la plantilla de Landing Page de [ArtBartActivity](https://www.etsy.com/es/listing/1707806147/plantilla-de-pagina-de-destino-de-figma). La interfaz fue recreada visualmente desde cero.
+- **Imágenes:** Seleccionadas de [Unsplash](https://unsplash.com/).
+- **Iconografía:** [Material Design Icons](https://materialdesignicons.com/).
+
+## 🚀 Demo & Repository
+
+- **Sitio en vivo:** [https://solar-energy-vue.vercel.app/](https://solar-energy-vue.vercel.app/)
+- **Repositorio de GitHub:** [https://github.com/BaloaC/solar-energy-vue](https://github.com/BaloaC/solar-energy-vue)
 
 Portafolio [https://baloac.github.io/]
