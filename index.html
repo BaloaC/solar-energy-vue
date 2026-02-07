@@ -5,9 +5,42 @@
     <link rel="icon" href="/src/assets/images/solar-energy-logo.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solar Energy Vue</title>
+    <link
+      rel="preload"
+      href="./src/assets/fonts/heebo-v28-latin-800.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./src/assets/fonts/heebo-v28-latin-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./src/assets/fonts/heebo-v28-latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="./src/assets/css/main.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./src/assets/images/home/hero-man.webp"
+      fetchpriority="high"
+    />
   </head>
   <body>
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>

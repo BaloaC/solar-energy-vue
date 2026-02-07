@@ -47,4 +47,9 @@ app.use(i18n);
 
 const appName = "Solar Energy";
 
-app.mount("#app");
+// app.mount("#app");
+requestAnimationFrame(() => {
+  requestAnimationFrame(() => {
+    app.mount("#app");
+  });
+});

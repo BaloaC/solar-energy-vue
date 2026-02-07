@@ -111,7 +111,13 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.isScrolled = window.scrollY > 50;
+      if (!this.ticking) {
+        window.requestAnimationFrame(() => {
+          this.isScrolled = window.scrollY > 50;
+          this.ticking = false;
+        });
+        this.ticking = true;
+      }
     },
     toggleDrawer() {
       this.drawer = !this.drawer;

@@ -5,7 +5,8 @@
         src="@images/home/use-energy-from-the-sun.webp"
         alt="Use Energy from The Sun and Save Money"
         class="hero-image"
-        loading="lazy"
+        loading="eager"
+        fetchpriority="high"
       />
       <v-row class="px-md-10" style="z-index: 2">
         <v-col
@@ -32,7 +33,10 @@
             {{ $t("hero.subtitle") }}
           </p>
 
-          <div class="d-flex align-center form-container fade-up-element" v-animate>
+          <div
+            class="d-flex align-center justify-center justify-lg-start fade-up-element"
+            v-animate
+          >
             <v-btn
               size="large"
               class="text-none rounded-pill px-8 font-weight-bold quote-btn bg-primary"
@@ -56,6 +60,10 @@
             :src="heroMan"
             alt="Technical Expert"
             width="1200"
+            height="853"
+            loading="eager"
+            fetchpriority="high"
+            eager
             class="hero-person-image d-flex d-md-none d-lg-flex"
             contain
           ></v-img>
@@ -128,11 +136,6 @@ export default {
 .subtitle-text {
   max-width: 500px;
   line-height: 1.6;
-}
-
-.form-container {
-  max-width: 550px;
-  position: relative;
 }
 
 :deep(.email-input .v-field) {
