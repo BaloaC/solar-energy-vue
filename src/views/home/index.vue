@@ -28,20 +28,20 @@
 import Navbar from "./components/Navbar.vue";
 import Header from "./components/Header.vue";
 import LogoRow from "./components/LogoRow.vue";
-import AdvantagesSection from "./components/AdvantagesSection.vue";
-import SolarSolutions from "./components/SolarSolutions.vue";
-import PopularService from "./components/PopularService.vue";
-import InstallationSteps from "./components/InstallationSteps.vue";
-import ProfessionalLeader from "./components/ProfessionalLeader.vue";
-import EnergyProjects from "./components/EnergyProjects.vue";
-import FAQSection from "./components/FAQSection.vue";
-import TestimonialsSection from "./components/TestimonialsSection.vue";
-import CallUs from "./components/CallUs.vue";
-import FoundersSection from "./components/FoundersSection.vue";
-import BlogSection from "./components/BlogSection.vue";
-import ContactSection from "./components/ContactSection.vue";
-import MainFooter from "./components/MainFooter.vue";
-import MapSection from "./components/MapSection.vue";
+// import AdvantagesSection from "./components/AdvantagesSection.vue";
+// import SolarSolutions from "./components/SolarSolutions.vue";
+// import PopularService from "./components/PopularService.vue";
+// import InstallationSteps from "./components/InstallationSteps.vue";
+// import ProfessionalLeader from "./components/ProfessionalLeader.vue";
+// import EnergyProjects from "./components/EnergyProjects.vue";
+// import FAQSection from "./components/FAQSection.vue";
+// import TestimonialsSection from "./components/TestimonialsSection.vue";
+// import CallUs from "./components/CallUs.vue";
+// import FoundersSection from "./components/FoundersSection.vue";
+// import BlogSection from "./components/BlogSection.vue";
+// import ContactSection from "./components/ContactSection.vue";
+// import MainFooter from "./components/MainFooter.vue";
+// import MapSection from "./components/MapSection.vue";
 
 export default {
   data() {
@@ -59,20 +59,20 @@ export default {
     Navbar,
     Header,
     LogoRow,
-    AdvantagesSection,
-    SolarSolutions,
-    PopularService,
-    InstallationSteps,
-    ProfessionalLeader,
-    EnergyProjects,
-    FAQSection,
-    TestimonialsSection,
-    CallUs,
-    FoundersSection,
-    BlogSection,
-    ContactSection,
-    MainFooter,
-    MapSection,
+    AdvantagesSection: defineAsyncComponent(() => import("./components/AdvantagesSection.vue")),
+    SolarSolutions: defineAsyncComponent(() => import("./components/SolarSolutions.vue")),
+    PopularService: defineAsyncComponent(() => import("./components/PopularService.vue")),
+    InstallationSteps: defineAsyncComponent(() => import("./components/InstallationSteps.vue")),
+    ProfessionalLeader: defineAsyncComponent(() => import("./components/ProfessionalLeader.vue")),
+    EnergyProjects: defineAsyncComponent(() => import("./components/EnergyProjects.vue")),
+    FAQSection: defineAsyncComponent(() => import("./components/FAQSection.vue")),
+    TestimonialsSection: defineAsyncComponent(() => import("./components/TestimonialsSection.vue")),
+    CallUs: defineAsyncComponent(() => import("./components/CallUs.vue")),
+    FoundersSection: defineAsyncComponent(() => import("./components/FoundersSection.vue")),
+    BlogSection: defineAsyncComponent(() => import("./components/BlogSection.vue")),
+    ContactSection: defineAsyncComponent(() => import("./components/ContactSection.vue")),
+    MainFooter: defineAsyncComponent(() => import("./components/MainFooter.vue")),
+    MapSection: defineAsyncComponent(() => import("./components/MapSection.vue")),
   },
   mounted() {
     // this.setVisitors();
