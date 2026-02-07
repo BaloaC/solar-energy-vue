@@ -44,4 +44,9 @@ Este módulo es el núcleo funcional del proyecto. He integrado y modernizado la
 
 ---
 
+## Proyecto y Github
+
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://solar-energy-vue.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BaloaC/solar-energy-vue)
+
 Portafolio [https://baloac.github.io/]
